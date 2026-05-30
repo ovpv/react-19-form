@@ -1,10 +1,11 @@
 import "./App.css";
+import { Register } from "./components/register";
 
 function App() {
   return (
-    <>
-      <section id="center"></section>
-    </>
+    <main className="container">
+      <Register />
+    </main>
   );
 }
 
