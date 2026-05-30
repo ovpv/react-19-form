@@ -28,3 +28,11 @@ export type RegistrationPayload = {
     pincode: string;
   };
 };
+
+export type RegisterActionState = {
+  values: RegisterFormValues;
+  errorMessage: string;
+  submitMessage: string;
+  submittedPayload: RegistrationPayload | null;
+  formKey: number;
+};
